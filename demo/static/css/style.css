@@ -1,0 +1,39 @@
+body {
+	background: url(' static\img\nature.jpg') -no repeat;
+	background-size: cover;
+	font-family: Roboto;
+    color: lightblue;
+}
+
+ul {
+	margin: 10px;
+	padding: 10px
+	list-style: upper-roman;
+	}
+
+     ul li {
+           float: left;
+           width: 220px;
+           height: 40px;
+           backgroung-color: black;
+           opacity: .9;
+           line-height: 40px;
+           text-align: center;
+           font-size: 22px;
+     }
+         ul li a{
+               text-decoration:none;
+               color: Black;
+               display: block;
+         }
+                ul li a:hover{
+                        background-color:Purple;
+
+                }
+                        ul li ul li{
+                            display: none;
+                        }
+
+                                ul li:hover ul li{
+                                    display: block;
+                                }
